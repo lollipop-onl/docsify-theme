@@ -26,6 +26,28 @@ Requirement:
 </head>
 ```
 
+## Custom Font
+
+```html
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.css">
+
+  <!-- load webfont (e.g. Google Fonts) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- override variables -->
+  <style>
+    :root {
+      --base-font-family: 'IBM Plex Sans JP', sans-serif;
+      --code-font-family: 'IBM Plex Mono', monospace;
+    }
+  </style>
+
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@lollipop-onl/docsify-theme/simple.css">
+```
+
 ## License
 
 MIT

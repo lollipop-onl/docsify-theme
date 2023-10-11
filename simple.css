@@ -1,10 +1,5 @@
 :root {
-  /** custom variables */
-  --onl-font-family-body: 'IBM Plex Sans JP', sans-serif;
-  --onl-font-family-mono: 'IBM Plex Mono', 'IBM Plex Sans JP', monospace;
-  
   /** override docsify theme */
-  --base-font-family: var(--onl-font-family-body);
   --base-font-size: 1.4rem;
   --content-max-width: 1200px;
   --navbar-root-color: var(--theme-color);
@@ -26,14 +21,13 @@
   --code-theme-variable: #ffc56d;
 
   /** inline code (based on Zenn) */
-  --code-font-family: var(--onl-font-family-mono);
   --code-inline-border-radius: 6px;
   --code-inline-color: var(--base-color);
   --code-inline-background: #215aa012;
 }
 
 svg text {
-  font-family: var(--onl-font-family-body) !important;
+  font-family: var(--base-font-family) !important;
 }
 
 video {
