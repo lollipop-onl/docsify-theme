@@ -6,6 +6,10 @@
   <code>@lollipop-onl/docsify-theme</code>
 </p>
 
+[![](https://data.jsdelivr.com/v1/package/npm/@lollipop-onl/docsify-theme/badge)](https://www.jsdelivr.com/package/npm/@lollipop-onl/docsify-theme)
+[![npm version](https://badge.fury.io/js/@lollipop-onl%2Fdocsify-theme.svg)](https://badge.fury.io/js/@lollipop-onl%2Fdocsify-theme)
+[![License](https://img.shields.io/npm/l/@lollipop-onl/docsify-theme)](https://github.com/lollipop-onl/docsify-theme/blob/main/LICENSE)
+
 Custom docsify theme by [@lollipop-onl](https://github.com/lollipop-onl).
 
 ## Setup
