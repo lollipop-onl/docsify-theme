@@ -1,6 +1,6 @@
 :root {
   /** override docsify theme */
-  --base-font-size: 1.4rem;
+  --base-font-size: 16px;
   --content-max-width: 1200px;
   --navbar-root-color: var(--theme-color);
   --navbar-root-text-decoration--hover: underline;
@@ -24,6 +24,10 @@
   --code-inline-border-radius: 6px;
   --code-inline-color: var(--base-color);
   --code-inline-background: #215aa012;
+}
+
+html {
+  font-size: 62.5% !important;
 }
 
 svg text {
